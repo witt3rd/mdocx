@@ -1,14 +1,9 @@
 [project]
 name = "mdocx"
 version = "0.1.0"
-description = "Add your description here"
-authors = [
-    { name = "Donald Thompson", email = "witt3rd@witt3rd.com" }
-]
-dependencies = [
-    "python-docx>=1.1.2",
-    "mistletoe>=1.4.0",
-]
+description = "Converts Markdown files to DOCX format with custom styling."
+authors = [{ name = "Donald Thompson", email = "witt3rd@witt3rd.com" }]
+dependencies = ["python-docx>=1.1.2", "mistletoe>=1.4.0"]
 readme = "README.md"
 requires-python = ">= 3.8"
 
@@ -25,3 +20,6 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/mdocx"]
+
+[project.urls]
+GitHub = "https://github.com/witt3rd/mdocx"
