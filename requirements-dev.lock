@@ -7,9 +7,10 @@
 #   all-features: false
 #   with-sources: false
 #   generate-hashes: false
+#   universal: false
 
 -e file:.
-lxml==5.2.2
+lxml==5.3.0
     # via python-docx
 mistletoe==1.4.0
     # via mdocx
